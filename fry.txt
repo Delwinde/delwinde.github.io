@@ -1,0 +1,185 @@
+#home{
+height:840px;
+background-color:rgba(0,0,0,0.5);
+justify-content: center;
+color:white;
+}
+
+.main{
+display: flex;
+flex-direction:column;
+position: absolute;
+top:30%;
+right:10%
+}
+
+.heading {
+font-family:century:
+text-align: center;
+margin:40px,0px;
+}
+
+.btn{
+padding:10px 35px
+background-color: transparent;
+border:1px solid white;
+color:white;
+transition:0.6s ease;
+}
+
+.btn:hover{
+cursor: pointed;
+background-color: white;
+box-shadow:0 0 5px white r;
+font-weight:bold;
+}
+
+/*section id= about
+div id= pic
+h1 class=heading
+img
+div id =intro
+p
+*/
+
+#about{
+display: flex;
+flex- direction: column;
+box- sizing: border-box;
+padding:20px;
+margin-buttom:50px;
+}
+
+#intro{
+display:flex;
+flex-direction: column;
+text-align: center;
+padding:10px;
+}
+h2{
+font-size:2rem;
+margin-buttom:20px;
+}
+
+/*section id =portfolio
+h1 class=heading
+div class =gallery
+img 6
+*/
+
+# portfolio {
+display:flex;
+flex-direction: column;
+background-color:rgba(0,0,0,0.5);
+color: white;
+align-item: century;
+padding:20px;
+}
+. gallery {
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+. gallery img{
+width:360px;
+height:240px;
+margin:10px;
+}
+
+/* section id=service
+h1 class=heading
+div class=row
+div class ="box"
+img
+h1
+p*/
+
+.row{
+display:flex;
+justify-content: space-around;
+box-size: border;
+}
+
+.box{
+display:flex;
+flex-direction: column;
+width:350px;
+height:450px;
+border:1px solid black;
+margin:10px;
+align-item: center;
+text-align: justify;
+padding:10px;
+border-radius:15px;
+background:linear-gradient(to top,rgb(255,45,45) 50%, white 50%);
+background-size:100% 200%;
+transition:all .8s
+}
+
+.box: hover {
+background- position:left-buttom;
+color:white;
+border:none;
+border-shadow:0 0 20px rgb(250,45,45);
+}
+.box img{
+width:80px;
+height:80px;
+background-color: white;
+padding:10px;
+}
+
+/*
+section id=contact
+h1 class=heading
+form
+input text
+input email
+textarea id =msg rows10 cols30
+input id =send submit
+*/
+
+# contact {
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+background-color:rgba(0,0,0,0.9);
+color: white;
+padding:20px;
+}
+
+.form(
+display:flex;
+flex-direction: column;
+box-sizing: border-box;
+align-item: center;
+margin:20px 0px;
+}
+
+.input{
+padding:12px;
+margin:15px;
+width:30%;
+border:none;
+outline:none;
+}
+
+#msg{
+width:20px;
+padding:10px;
+margin:15px;
+border:none;
+outline:none;
+}
+
+#send{
+padding:10px;
+width:10px;
+margin:40px;
+border:none;
+outline:none;
+}
+
+#send: hover {
+cursor: pointer;
+box-shadow:0,0, 10px white;
