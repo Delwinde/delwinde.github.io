@@ -14,7 +14,8 @@
             }
 
         .pic img{
-            width:250px;
+            width:220px;
+            height:175px;
             
             }
             
@@ -37,6 +38,11 @@
             #send{width:20%;}
           
             .u1{display:none;}
+            .u2{display:none;}
+
+            #main{
+             padding-left:20px;
+             }
             
             
         
