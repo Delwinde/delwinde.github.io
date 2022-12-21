@@ -14,8 +14,8 @@
             }
 
         .pic img{
-            width:300px;
-            height:175px;
+            width:250px;
+            
             }
             
             #intro h2{
@@ -35,6 +35,8 @@
             
             #msg{width:70%;}
             #send{width:20%;}
+          
+            .u1{display:none;}
             
             
         
