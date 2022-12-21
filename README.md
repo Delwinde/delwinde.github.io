@@ -1,0 +1,7 @@
+WECOME TO DELWINDE SHAM-UNA HOME PAGE.
+A SOFTWARE ENGINEER AND A MATERIALS ENGINEER.
+REACH AT:
+delwinde.github.io/sham.html
+shamunadelwinde@gmail.com
+
+ THANKS FOR YOUR TIME.
