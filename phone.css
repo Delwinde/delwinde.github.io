@@ -14,7 +14,7 @@
             }
 
         .pic img{
-            width:220px;
+            width:200px;
             height:175px;
             
             }
@@ -43,6 +43,8 @@
             #main{
              padding-left:20px;
              }
+    
+           .b1{padding-left:40px;}
             
             
         
