@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>SHAM-UNA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<style type="text/css">
+ :root{background-image:url("b2.jpg");
+       height:100%;
+       background-position:center;
+       background-repeat:no-repeat;
+       background-size:cover;
+      }
+@keyframes blink{ 
+    from{font-size:250%; 
+
+         font-weight:bold;
+         position:absolute;
+         color:transparent;
+         
+   
+        }
+       to{font-size:250%;
+          font-weight:bold;
+   
+          position: absolute;
+         
+       text-shadow: -1px 0 #173459, 0 1px #173459, 1px 0 #173459, 0 -1px #173459;
+         color: #903C56;
+            }
+       
+                }
+@keyframes logo{
+          0%{top:50%;
+              opacity:0;
+             }
+          100%{top:10%;
+            }
+               }
+@keyframes drop{
+           0%{opacity:1;
+              top:10%;
+             }
+          100%{opacity:1;
+              top:55%;             
+              }
+               }
+@keyframes login{
+            100%{color:white;
+                 top:30%;
+                 font-size:60px;
+                 position:absolute;
+    
+    left:50%;
+    transform:translate(-50%,-50%);
+   text-shadow: -1px 0 #173459, 0 1px #173459, 1px 0 #173459, 0 -1px #173459;
+         
+              }
+            0%{color:transparent;
+               top:55%;
+                position:absolute;
+    
+    left:50%;
+    transform:translate(-50%,-50%);
+   
+                }
+                }
+@keyframes end{
+     100%{ 
+         margin: 20px;
+         padding: 15px;
+         background: #173459;
+         color: white;
+         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20); 
+        position:absolute;
+         top:45%;
+        
+         }
+     0%{
+    position:absolute;
+    top:90%;
+       margin: 20px;
+         padding: 15px;
+         
+        }
+   }      
+
+@keyframes input{
+         
+          100%{
+           visibility:visible;
+           background:white;
+             }
+
+                }
+
+@keyframes sign{
+
+             100%{
+                    visibility:visible;
+                 }
+
+                }
+
+
+div.static{animation-name:blink;
+    animation-duration:1s;
+    animation-timming-function:ease-in-out;
+
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    font-size:0px;
+    color:transparent;
+   }
+ div.down{animation-name:blink;
+    animation-duration:1s;
+    animation-timming-function:ease-in-out;
+
+    top:65%;
+    left:55%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    font-size:0px;
+    color:transparent;
+     }
+#iit{
+    animation-name:logo;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    
+   border-radius:50% solid black;
+   position:absolute;
+    top:15%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:35%;
+       
+   }
+#jee{
+   animation-name:drop;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-delay:1s;
+
+   border-radius:100% solid black;
+   position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:10%;
+    opacity:0;
+    
+    
+    }
+   h1{
+      animation-name:login;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay:2s;
+  
+   
+   color:transparent;
+   font-family:Times New Roman;
+   
+    }
+
+html,body { 
+            margin:0;
+            padding:0;
+          }
+
+
+    .form{
+         animation-name:end;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay:2s;
+    
+     
+    }
+
+input.un,.pw,.lg{
+          animation-name:input;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay:2s;
+
+
+        background:transparent;
+        border:none;
+        visibility:hidden;
+         }
+
+#person,#lock{
+          animation-name:input;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay:2s;
+
+
+        background:transparent;
+        border:none;
+        visibility:hidden;
+         }
+
+
+.input-cnt {
+         display:flex; /* display the icon and the input in a line */
+         margin-bottom: 15px;
+           }
+.input-cnt:last-child {
+         margin-bottom: 0px;
+      }
+      .input-cnt > i {
+         min-width: 40px; /* set a minimum width for the icon */
+         padding: 10px; /* make sure the icon is centered vertically */
+         text-align: center; /* horizontally center the icon */
+         background: lightgrey;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+         color: #0076ff;
+      }
+      /* change styles when focused */
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+      /* style the inputs */
+      .input-cnt > input[type="text"], .input-cnt > input[type="password"] {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 1px solid lightgrey;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 100%;
+      }
+      /* style the submit button */
+      .input-cnt > input[type="submit"] {
+         border: none;
+         border-radius: 20px;
+         outline: none;
+         width: 75%;
+         margin: 0 auto;
+         font-size: 105%;
+         padding: 8px;
+         color: #0076ff;
+         background: white;
+         transition-duration: .5s;
+      }
+      /* add a hover effect for the submit button */
+      .input-cnt > input[type="submit"]:hover {
+         color: white;
+         background: #0076ff;
+      }
+
+.sg{
+    color:white;
+    position:absolute;
+    left:45%;
+    top:85%;
+   font-size:20px;
+   
+   text-shadow: -1px 0 #173459, 0 1px #173459, 1px 0 #173459, 0 -1px #173459;
+
+    }
+
+.sg1{
+
+   font-size:14px;
+   color:white;
+   position:absolute;
+  top:89%;
+  left:25%;
+
+    }
+
+a{
+background:white;
+font-size:20px;
+
+ }
+
+.signup{
+
+      animation-name:sign;
+    animation-duration:1s;
+    aniamtion-timming-function:ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay:3s;
+
+
+
+      visibility:hidden;
+
+       }
+
+
+</style>
+<body>
+<div class="static">SHAM DEEDAT</div>
+<div class="down">WELCOME TO UNLIMITED</div>
+<img src="http://assets.stickpng.com/images/58481887cef1014c0b5e49a8.png" id="iit"></img>
+<img src="http://assets.stickpng.com/images/58481887cef1014c0b5e49a8.png" id="jee"></img>
+<h1>Login</h1>
+<div class="form">
+
+<form action="#">
+
+<div class="input-cnt">
+            <i id="person" class="material-icons">person</i>
+            <input class="un" type="text" placeholder="Email or username" name="email" />
+         </div>
+         
+         <div class="input-cnt">
+            <i id="lock" class="material-icons">lock</i>
+            <input type="password" class="pw" placeholder="Password" name="password" />
+         </div>
+         
+         <div class="input-cnt">
+          <!-- <a href="sham.html"> <input type="submit" class="lg" value="Login" /> </a> -->
+          <a href="sham.html" class="lg"><button>Login</button></a>
+          <a href="sham.html">Login</a>
+         </div>
+         </div>
+
+</form>
+
+</div>
+
+<div class="signup">
+
+<i class="sg">
+Or
+</i>
+<b class="sg1">
+Create a new account?<a href="#">SignUp</a>
+</b>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+<!-- Author -->
+<!-- https://delwinde.github.io.SHAM.html -->
+<!-- shamunadelwinde@gmail.com -->
