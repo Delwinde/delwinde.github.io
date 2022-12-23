@@ -405,7 +405,7 @@ div a{
                100%{background-position:0px 650px;}
             }
 
-            @keyframes un1{
+            @keyframes un{
                 0%{background-position: 0px 100px;}
                 100%{background-position:100px 650px;}
              }
